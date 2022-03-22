@@ -1,5 +1,6 @@
-$(document).ready(function()
-{
+$(document).ready(function(){
     
-    alert("hola");
-});
+      alert("You entered p1!");
+  
+  });
+ 
