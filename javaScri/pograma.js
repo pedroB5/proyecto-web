@@ -1,6 +1,4 @@
 $(document).ready(function(){
-    
-      alert("You entered p1!");
-  
+  $("#titulo").mouseenter(function(){ 
   });
- 
+});
