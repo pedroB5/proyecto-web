@@ -4,15 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="CSS/estilo.css">
-    <title>Proyecto Web  </title>
+    <title>Document</title>
+    <script src="js/programa.js"></script>
+    <link rel="stylesheet" href="css/estilos.css">
 </head>
-<body class="grid-container">
-    <header class="header">header</header>
-    <nav class="navbar">navbar</nav>
-    <aside class="sidebar">sidebar</aside>
-    <article class="main">main</article>
-    <footer class="footer">footer</footer>
- 
+<body>
+    <div id="principal">
+        <p id="titulo" onclick="cambiarColor()" onmouseover="cambiarColor()" onmouseleave="restablecerColor()">Pares e impares</p>
+        <div id="formulario">
+            <div><p>Ingrese un numero de 4 digitos</p></div>
+            <div><input type="text" id="numero4D"></div>
+            <div><button id="obtener" onclick="obtenerParesImpares();">Obtener pares e impares</button></div>
+            <div><input type="text" id="pares" value="Total pares"></div>
+            <div><input type="text" id="imPares" value="Total impares"></div>
+            <div><input type="text" id="ceros" value="Total ceros"></div>
+        </div>
+    </div>
 </body>
 </html>
+
